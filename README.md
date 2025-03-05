@@ -1,4 +1,4 @@
-# badlion-client-installer
+# Badlion Client Install Script for Linux
 
 Simple bash script that automatically installs badlionclient on (Arch) Linux
 
