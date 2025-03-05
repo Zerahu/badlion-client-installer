@@ -24,4 +24,5 @@ cd badlion-client-installer
 
 ### Disclaimers
 
-I think the .desktop file implementation is slightly broken, might fix that in the future. Feel free to create pull requests. No warranty on this as I am no longer associated with Badlion client. This project is made externally without explicit consent from Badlion Client.
+Be cautios of running scripts you find online, read the source code first!
+No warranty on this as I am no longer associated with Badlion Client. This project is made externally without explicit consent from Badlion Client.
