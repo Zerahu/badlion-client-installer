@@ -1,3 +1,11 @@
+#!/bin/bash
+
+# Ensure script is run as a normal user, not root
+if [[ $EUID -eq 0 ]]; then
+    echo "Please do not run this script directly as root."
+    exit 1
+fi
+
 echo "Script requires sudo priviledges: "
 sudo echo " "
 
