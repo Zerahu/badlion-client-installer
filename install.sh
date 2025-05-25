@@ -21,7 +21,7 @@ if [ -f "BadlionClient" ]; then
     chmod a+x BadlionClient
     sudo mv BadlionClient /usr/bin
 
-    sudo wget -O /usr/share/icons/badlion-logo.png "https://assets.badlion.net/cdn-cgi/image/width=300,f=auto/site/assets/badlion-logo.webp"
+    sudo wget -O /usr/share/icons/badlion-client.png "https://assets.badlion.net/cdn-cgi/image/width=300,f=auto/site/assets/badlion-logo.webp"
 
     echo """
 [Desktop Entry]
@@ -30,13 +30,13 @@ StartupWMClass=Badlion Client
 Comment=Badlion Client
 GenericName=Minecraft Client Badlion pvp
 Exec=/usr/bin/BadlionClient %U
-Icon=/usr/share/icons/badlion-icon.png
+Icon=badlion-client
 Type=Application
 StartupNotify=true
 Categories=Minecraft;Gaming;Client;Modpack;
-""" > BadlionClient.desktop
+""" > badlion-client.desktop
 
-    sudo mv BadlionClient.desktop /usr/share/applications/BadlionClient.desktop
+    sudo mv badlion-client.desktop /usr/share/applications/badlion-client.desktop
 
     exit 0
 
