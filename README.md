@@ -1,5 +1,7 @@
 # Badlion Client Install Script for Linux
 
+Update: Badlion client is now back in the AUR, and I definietly recommend that you install it through the AUR instead of manually like this. The script will still function in case the AUR package breaks or you run a distro that does not have access to the AUR. Check out the (I think official) badlion AUR package (here)[https://aur.archlinux.org/packages/badlion-client].
+
 Simple bash script that automatically installs badlionclient on (Arch) Linux
 
 ## How to use:
